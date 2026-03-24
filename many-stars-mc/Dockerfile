@@ -17,7 +17,6 @@ ENV DEBIAN_FRONTEND="noninteractive"
 ENV TZ="Asia/Shanghai"
 ENV LANG="en_US.utf8"
 ENV LC_ALL="en_US.utf8"
-ENV JAVA_TOOL_OPTIONS="-Dfile.encoding=UTF-8 -Djava.net.preferIPv4Stack=false -Djava.net.preferIPv6Addresses=true"
 
 # 安装系统组件
 RUN sed -i 's/deb.debian.org/mirrors.ustc.edu.cn/g' /etc/apt/sources.list.d/debian.sources \
